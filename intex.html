@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe website</title>
+    <link rel="stylesheet" href="recipe.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-----logo & nav ------->
+    <header>
+        <div class="container">
+            <h1 class="logo">Recipe World</h1>
+            <nav>
+                <ul class="nav-list">
+                    <a href="#home"><li><i class="bi bi-house"></i>Home</li></a>
+                    <a href="#registerform"><li><i class="bi bi-file-person"></i>About</li></a>
+                    <a href="#recipe"> <li><i class="bi bi-egg-fried"></i>Recipe</li></a>
+                    <a href="#registerform">  <li><i class="bi bi-person-lines-fill"></i>Register</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-----content section----->
+    <section class="hero" id="home">
+        <div class="hero-section">
+            <h2 class="heroh2">Welcome to our Recipe Collection !</h2>
+            <p class="herop">Search mouth watering recipes to satisfy your craving.</p>
+            <form>
+                <input class="search" type="search" placeholder="search recipe">
+                <button>search</button>
+            </form>
+        </div>
+    </section>
+    <!------recipe section------>
+    <section class="recipe" id="recipe">
+        <h1 class="feature"> Featured Recipe</h1> 
+        <div class="recipe-section">
+            <div class="recipe-card"> 
+                <img src="https://yummyies.com/wp-content/uploads/2021/03/chiken-biriyani.jpg" alt="Chicken Biriyani">
+                <h2>Chicken Biriyani</h2>
+                <p>Chicken biryani is one of the most popular Indian chicken dishes. In the recipe below, I present one of the best & simple chicken biryani recipes that we frequently prepare at home. When the biryani is cooked as per instructions given in the recipe, the chicken remains juicy, tender, masaledar, and finger-licking good. </p>
+                <a href="#">View Recipe</a>
+            </div>
+           
+            <div class="recipe-card">
+                <img src="https://images.cnbctv18.com/wp-content/uploads/2020/07/Salna-is-to-parotta-was-pav-is-to-bhaji-%E2%80%94-an-inseparable-combination.jpg" alt="Parotta" >
+                <h2>Parota</h2>
+                <p>one of the popular south indian layered paratha recipe made with maida or plain flour. it is known for its crisp and flaky taste with multiple layers of folded and twisted parotta layers in it. it is generally served with a spicy coconut-based vegetable kurma recipe, but can also be served with choice of north indian curries.</p>
+                <a href="#">View Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="https://i0.wp.com/buddymantra.com/wp-content/uploads/2018/10/dishes-of-Tamil-Nadu.jpg" alt="Idly,Dosa&Vada" >
+                <h2>Dosa,Idly&vada</h2>
+                <p>Here is my trusted go-to idli dosa batter recipe! This simple recipe will guide you every step of the way to make the perfect idli dosa batter! I have included tips on the ratio of rice to dal, what to soak, how long to soak, tips on how to grind and ferment batter, and idli dosa batter consistency, so you can get this right in the first go!</p>
+                <a href="#">View Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFepPMCiS5eTmdNzEOVrhVdiLkQl-Lpz2fug&s" alt="Chapathi" >
+                <h2>Traditional Meals</h2>
+                <p>Chapati is the quintessence of the Indian cuisine so much so that no meal is complete without this Indian flatbread. Prepared with the goodness of whole wheat flour, water, salt and ghee, this simple Indian bread goes well with everything. Right from gravies to dals to sweets, this delight is perfect dose of taste and health.  </p>
+                <a href="#">View Recipe</a>
+            </div>
+            
+
+           
+        </div>
+    </section>
+    <!---------------Register Form-------------->
+    <section>
+        <div class="register" id="registerform">
+            <h2 class="registerh2">Register to close with us!!!</h2>
+            <form class="registerform">
+                <label for="name">Name</label>
+                <input type="text" placeholder="eg:jackson"><br>
+                <label for="number">Contact no</label>
+                <input type="text" placeholder="eg:xxx-xxx-xxxx" required><br>
+                <label for="mail">Email</label>
+                <input type="mail" placeholder="eg:jackson11@gmail.com" required><br>
+                <br><button>Register</button>
+
+            </form>
+        </div>
+    </section>
+    <!--------Footer---------->
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Recipe World </p>
+        </div>
+            <div class="icons">
+          <a href="#">  <i class="bi bi-instagram"></i></a>
+            <a href="#">  <i class="bi bi-twitter-x"></i></a>
+                <a href="#"> <i class="bi bi-linkedin"></i></a>
+                    <a href="#">  <i class="bi bi-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
